@@ -1,0 +1,3 @@
+C:/Users/nguye/OneDrive/Documents/Materials/CodeProjects/C-C++/Project/cmake-build-debug/CMakeFiles/Project.dir
+C:/Users/nguye/OneDrive/Documents/Materials/CodeProjects/C-C++/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nguye/OneDrive/Documents/Materials/CodeProjects/C-C++/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

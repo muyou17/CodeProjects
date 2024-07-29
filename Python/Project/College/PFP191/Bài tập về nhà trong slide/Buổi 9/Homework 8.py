@@ -1,0 +1,10 @@
+def main() -> None:
+    print("INPUT:")
+    array: list[int] = list(map(int, input("Array: ").split()))
+
+    print("\nOUTPUT:")
+    print(array == sorted(array))
+
+
+if __name__ == '__main__':
+    main()
