@@ -5,5 +5,5 @@
         "powershell": ".ps1",
         "typescript": ".ts"
     },
-    "code-runner.clearPreviousOutput": false
+    "code-runner.clearPreviousOutput": true
 }
