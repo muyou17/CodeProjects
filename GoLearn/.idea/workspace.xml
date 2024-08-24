@@ -5,231 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="082a2392-741f-4381-ab5b-06efbf008587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../College/PFP191/.idea/PFP191.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/GoLearn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/New Project/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/New Project/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/New Project/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/New Project/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/.cache/jb/UpdateWork.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/.cache/jb/version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/.idea/Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/CMakePresets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/reply/cache-v2-9c5b08bd0ed1c06ccc2c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c48e6ed8427f4a6d8b34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0bad895134612faa5933.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-24T16-07-27-0577.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/reply/target-Project-Debug-17ca7ef49a079db1b439.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-679695b84afecb2b88ee.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C-C++/Project/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HMTL-CSS/Project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HMTL-CSS/Project/.idea/Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HMTL-CSS/Project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HMTL-CSS/Project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HMTL-CSS/Project/first_try.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Project/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/.idea/Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/AVLTree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 06.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 07.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 08.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/CSD203 Slot 12.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/PQdemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/Practical Examination/Q1/Q1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/Practical Examination/Q2/Q2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/SE190168-NguyenTruongPhucThinh-ASM01/Q1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/SE190168-NguyenTruongPhucThinh-ASM01/Q1/Q1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/SE190168-NguyenTruongPhucThinh-ASM02/Q2/Q2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/SE190168-NguyenTruongPhucThinh-Trial/Q1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/SE190168-NguyenTruongPhucThinh-Trial/Q1/Q1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/SE190168-NguyenTruongPhucThinh-Trial/Q2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/Test/SE190168-NguyenTruongPhucThinh-Trial/Q2/Q2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/binarysearchtrees.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/linkedlists.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/CSD203/tree.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/.idea/PFP191.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B13.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B14.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B15.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B17.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B18.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B19.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B20.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/B9.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/300 Bài Code Thiếu Niên/Đề.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 1/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 1/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 12.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 14/Homework 9.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 2/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 2/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 2/Homework 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 3/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 3/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 3/Homework 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 4/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 4/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 4/Homework 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 4/Homework 4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 5/Homework 9.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 7/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 7/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 7/Homework 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 7/Homework 4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 7/Homework 5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 7/Homework 6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 8/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 8/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 8/Homework 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 8/Homework 4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 8/Homework 5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 8/Homework 6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/Bài tập về nhà trong slide/Buổi 9/Homework 9.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q1/Q1A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q1/Q1B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q1/Q1C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q2/Q2A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q2/Q2B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q2/Q2C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q3/Q3A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q3/Q3B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q3/Q3C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q4/Q4A.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q4/Q4B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/LAB01/Q4/Q4C.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PE02_PFP191_SP24_740113/PaperNo_1/Q1/Q1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PE02_PFP191_SP24_740113/PaperNo_1/Q2/Q2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PE02_PFP191_SP24_740113/PaperNo_1/Q3/Q3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PE02_PFP191_SP24_740113/PaperNo_1/Q4/Q4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 06-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 06-2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 06-3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 06-4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 07-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 07-2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 07-3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 08-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 08-2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 08-3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 08-4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 08-5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 08-6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 12-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 12-2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 12-3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 12-4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 16-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 16-2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 17.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/College/PFP191/PFP191 Slot 18.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/Miscellaneous/PythonIcon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/Miscellaneous/SheetExtractor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/Miscellaneous/TLout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/Miscellaneous/file.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/Miscellaneous/file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Project/Miscellaneous/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Program Files/Go" />
+  <component name="GOROOT" url="file://C:/Program Files/Programming Languages/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -446,37 +229,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Edu.LearningObjectsStorageType&quot;: &quot;SQLite&quot;,
-    &quot;Edu.Yaml.Migrate&quot;: &quot;true&quot;,
-    &quot;Go Build.go build about.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build constantsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build exportedNamesMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build functionsContinuedMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build functionsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build multipleResultsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build namedReturnValuesMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build packagesMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build task.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build typeConversionsMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build typeInferenceMain.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build zeroValuesMain.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Muyou&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Edu.LearningObjectsStorageType": "SQLite",
+    "Edu.Yaml.Migrate": "true",
+    "Go Build.go build about.executor": "Run",
+    "Go Build.go build constantsMain.executor": "Run",
+    "Go Build.go build exportedNamesMain.executor": "Run",
+    "Go Build.go build functionsContinuedMain.executor": "Run",
+    "Go Build.go build functionsMain.executor": "Run",
+    "Go Build.go build multipleResultsMain.executor": "Run",
+    "Go Build.go build namedReturnValuesMain.executor": "Run",
+    "Go Build.go build packagesMain.executor": "Run",
+    "Go Build.go build task.go.executor": "Run",
+    "Go Build.go build typeConversionsMain.executor": "Run",
+    "Go Build.go build typeInferenceMain.executor": "Run",
+    "Go Build.go build zeroValuesMain.executor": "Run",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "A:/CodeProjects/GoLearn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Go Build.go build constantsMain">
     <configuration name="go build constantsMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLearn" />
