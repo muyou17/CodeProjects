@@ -13,4 +13,6 @@ func main() {
 	p = &j         // point to j
 	*p = *p / 37   // divide j through the pointer
 	fmt.Println(j) // see the new value of j
+
+	fmt.Printf("p is of type %T\n", p)
 }

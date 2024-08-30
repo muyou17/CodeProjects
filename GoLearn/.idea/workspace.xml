@@ -5,7 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="082a2392-741f-4381-ab5b-06efbf008587" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../College/PFP191/PFP191 Slot 04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../College/PFP191/PFP191 Slot 04.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Defer/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Defer/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Defer/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Defer/task.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Exercise  Loops and Functions/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Exercise  Loops and Functions/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Exercise  Loops and Functions/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Exercise  Loops and Functions/task.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/For continued/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/For continued/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/For is Go's  while/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/For is Go's  while/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/For/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/For/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Forever/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Forever/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Forever/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Forever/task.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/If and else/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/If and else/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/If with a short statement/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/If with a short statement/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/If/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/If/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/If/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/If/task.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Stacking defers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Stacking defers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Switch evaluation order/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Switch evaluation order/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Switch with no condition/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Switch with no condition/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Switch/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flow control statements  for, if, else, switch and defer/Switch/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Arrays/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Arrays/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Pointers to structs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Pointers to structs/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Pointers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Pointers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Pointers/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Pointers/task.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Slice defaults/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Slice defaults/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Slice length and capacity/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Slice length and capacity/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Slice literals/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Slice literals/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Slices are like references to arrays/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Slices are like references to arrays/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Slices/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Slices/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Struct Fields/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Struct Fields/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Struct Literals/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Struct Literals/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More types  structs, slices, and maps/Structs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/More types  structs, slices, and maps/Structs/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages, variables, and functions/Numeric Constants/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Packages, variables, and functions/Numeric Constants/task-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,13 +266,30 @@
     "Edu.LearningObjectsStorageType": "SQLite",
     "Edu.Yaml.Migrate": "true",
     "Go Build.go build about.executor": "Run",
+    "Go Build.go build arraysMain.executor": "Run",
     "Go Build.go build constantsMain.executor": "Run",
+    "Go Build.go build deferMain.executor": "Run",
+    "Go Build.go build exerciseLoopsAndFunctionsMain.executor": "Run",
     "Go Build.go build exportedNamesMain.executor": "Run",
+    "Go Build.go build foreverMain.executor": "Run",
     "Go Build.go build functionsContinuedMain.executor": "Run",
     "Go Build.go build functionsMain.executor": "Run",
+    "Go Build.go build ifMain.executor": "Run",
+    "Go Build.go build ifWithAShortStatementMain.executor": "Run",
+    "Go Build.go build mswitchEvaluationOrderMain.executor": "Run",
     "Go Build.go build multipleResultsMain.executor": "Run",
     "Go Build.go build namedReturnValuesMain.executor": "Run",
+    "Go Build.go build numericConstantsMain.executor": "Run",
     "Go Build.go build packagesMain.executor": "Run",
+    "Go Build.go build pointersMain.executor": "Run",
+    "Go Build.go build sliceLiteralsMain.executor": "Run",
+    "Go Build.go build slicesMain.executor": "Run",
+    "Go Build.go build stackingDefersMain.executor": "Run",
+    "Go Build.go build structFieldsMain.executor": "Run",
+    "Go Build.go build structLiteralsMain.executor": "Run",
+    "Go Build.go build structsMain.executor": "Run",
+    "Go Build.go build switchMain.executor": "Run",
+    "Go Build.go build switchWithNoConditionMain.executor": "Run",
     "Go Build.go build task.go.executor": "Run",
     "Go Build.go build typeConversionsMain.executor": "Run",
     "Go Build.go build typeInferenceMain.executor": "Run",
@@ -249,7 +297,6 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -257,70 +304,70 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build constantsMain">
-    <configuration name="go build constantsMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build sliceLiteralsMain">
+    <configuration name="go build arraysMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLearn" />
-      <working_directory value="$PROJECT_DIR$/Packages, variables, and functions/Constants" />
+      <working_directory value="$PROJECT_DIR$/More types  structs, slices, and maps/Arrays" />
       <kind value="PACKAGE" />
-      <package value="constantsMain" />
+      <package value="arraysMain" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Packages, variables, and functions/Constants/task.go" />
+      <filePath value="$PROJECT_DIR$/More types  structs, slices, and maps/Arrays/task.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build namedReturnValuesMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build sliceLiteralsMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLearn" />
-      <working_directory value="$PROJECT_DIR$/Packages, variables, and functions/Named return values" />
+      <working_directory value="$PROJECT_DIR$/More types  structs, slices, and maps/Slice literals" />
       <kind value="PACKAGE" />
-      <package value="namedReturnValuesMain" />
+      <package value="sliceLiteralsMain" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Packages, variables, and functions/Named return values/task.go" />
+      <filePath value="$PROJECT_DIR$/More types  structs, slices, and maps/Slice literals/task.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build typeConversionsMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build slicesMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLearn" />
-      <working_directory value="$PROJECT_DIR$/Packages, variables, and functions/Type conversions" />
+      <working_directory value="$PROJECT_DIR$/More types  structs, slices, and maps/Slices" />
       <kind value="PACKAGE" />
-      <package value="typeConversionsMain" />
+      <package value="slicesMain" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Packages, variables, and functions/Type conversions/task.go" />
+      <filePath value="$PROJECT_DIR$/More types  structs, slices, and maps/Slices/task.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build typeInferenceMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build structFieldsMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLearn" />
-      <working_directory value="$PROJECT_DIR$/Packages, variables, and functions/Type inference" />
+      <working_directory value="$PROJECT_DIR$/More types  structs, slices, and maps/Struct Fields" />
       <kind value="PACKAGE" />
-      <package value="typeInferenceMain" />
+      <package value="structFieldsMain" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Packages, variables, and functions/Type inference/task.go" />
+      <filePath value="$PROJECT_DIR$/More types  structs, slices, and maps/Struct Fields/task.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build zeroValuesMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build structLiteralsMain" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLearn" />
-      <working_directory value="$PROJECT_DIR$/Packages, variables, and functions/Zero values" />
+      <working_directory value="$PROJECT_DIR$/More types  structs, slices, and maps/Struct Literals" />
       <kind value="PACKAGE" />
-      <package value="zeroValuesMain" />
+      <package value="structLiteralsMain" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Packages, variables, and functions/Zero values/task.go" />
+      <filePath value="$PROJECT_DIR$/More types  structs, slices, and maps/Struct Literals/task.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build constantsMain" />
-        <item itemvalue="Go Build.go build typeInferenceMain" />
-        <item itemvalue="Go Build.go build typeConversionsMain" />
-        <item itemvalue="Go Build.go build zeroValuesMain" />
-        <item itemvalue="Go Build.go build namedReturnValuesMain" />
+        <item itemvalue="Go Build.go build sliceLiteralsMain" />
+        <item itemvalue="Go Build.go build slicesMain" />
+        <item itemvalue="Go Build.go build arraysMain" />
+        <item itemvalue="Go Build.go build structLiteralsMain" />
+        <item itemvalue="Go Build.go build structFieldsMain" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-5df93f7ad4aa-dfc284eb1eb8-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.20224.306" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-GO-242.20224.306" />
+        <option value="bundled-gosdk-5df93f7ad4aa-dfc284eb1eb8-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.20224.424" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-GO-242.20224.424" />
       </set>
     </attachedChunks>
   </component>
