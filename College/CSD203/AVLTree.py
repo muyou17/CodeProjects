@@ -22,6 +22,7 @@ class AVLTree:
     # Right - Left Rotation (xoay phải rồi xoay trái): Xảy ra khi độ cân bằng của gốc < 1 và độ cân bằng của gốc.right > 0
     # B5: Làm phép insert, delete như cây BínarySearchTree nhưng có thêm bước cân bằng ở cuối
     # (Phép delete sẽ cân định nghĩa thêm một hàm get_min_value_node(node) để xử lý trường hợp xoá node có 2 con)
+
     def get_height(self, node):
         if not node:
             return 0
