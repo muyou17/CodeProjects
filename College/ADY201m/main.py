@@ -1,48 +1,54 @@
-from datetime import datetime
+from sqlite3 import Cursor, connect
 
 
-def get_user_birth_year(current_year: int) -> int:
-    while True:
-        user_birth_year = input("Enter your year of birth: ")
-        try:
-            year_of_birth = int(user_birth_year)
-            if not year_of_birth in range(1900, current_year + 1):
-                raise ValueError
-            return year_of_birth
-        except ValueError:
-            print("Invalid year!", end="\n\n")
+def q1(cursor: Cursor) -> int:
+    return cursor.execute(
+        """
+        SELECT count(DISTINCT symbol)
+        FROM StockTrading
+        """
+    ).fetchone()[0]
 
 
-def get_user_age_group(user_age: int) -> str:
-    match [user_age >= age for age in (51, 36, 18, 7, 0)].index(True):
-        case 0:
-            return "Elderly"
-        case 1:
-            return "Middle-Aged"
-        case 2:
-            return "Young Adult"
-        case 3:
-            return "Adolescent"
-        case 4:
-            return "Child"
+def q2(cursor: Cursor) -> int:
+    return cursor.execute(
+        """
+        SELECT count(DISTINCT CategoryId)
+        FROM StockList JOIN StockTrading ON StockList.Symbol = StockTrading.symbol
+        """
+    ).fetchone()[0]
 
 
-def years_until_elderly(age: int) -> int:
-    return 51 - age if age < 51 else 0
+def q3(cursor: Cursor) -> int:
+    return cursor.execute(
+        """
+        SELECT COUNT(DISTINCT strftime('%Y-%m', tradeDate))
+        FROM StockTrading
+        """
+    ).fetchone()[0]
 
 
-def main() -> None:
-    print("INPUT:")
-    year_of_birth = get_user_birth_year(current_year := datetime.today().year)
-    age_group = get_user_age_group(age := current_year - year_of_birth)
+def q4(cursor: Cursor) -> tuple[float, float]:
+    return cursor.execute(
+        """
+        WITH tradeValue AS (SELECT cast(price AS int) AS tradeValue
+                            FROM StockTrading
+                            WHERE symbol = 'FPT' AND substring(tradeDate, 0, 8) = '2024-08')
+        SELECT min(tradeValue), max(tradeValue)
+        FROM tradeValue
+        """
+    ).fetchone()
 
-    print("\nOUTPUT:")
-    print(f"Your birth year: {year_of_birth}",
-          f"Your age: {age}",
-          f"Your age group: {age_group}",
-          f"Years until you become elderly: {years_until_elderly(age)}",
-          sep="\n")
+
+def main():
+    cursor = connect("Stock.db").cursor()
+    q4_result = q4(cursor)
+    
+    print(f"Question 1: {q1(cursor)}\n"
+          f"Question 2: {q2(cursor)}\n"
+          f"Question 3: {q3(cursor)}\n"
+          f"Question 4: {q4_result[0]}, {q4_result[1]}")
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

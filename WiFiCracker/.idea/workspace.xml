@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f1208b6-c3c1-4e44-8e97-2a3328216016" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.FlappyBird/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.FlappyBird/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.FlappyBird/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../College/PRO192/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../College/PRO192/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../College/PRO192/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../College/PRO192/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../College/PRO192/PRO192.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlappyBird/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlappyBird/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlappyBird/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlappyBird/scripts/test.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/PythonStuffs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Miscellaneous/T2SChatBot/.idea/T2SChatBot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/WiFiCracker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wifi_cracking.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js/.idea/node.js.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node.js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../College/ADY201m/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../College/ADY201m/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../College/PFP191/PFP191 Slot 05.py" beforeDir="false" afterPath="$PROJECT_DIR$/../College/PFP191/PFP191 Slot 05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/SheetExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/Storage/SheetExtractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/file.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/file.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mQQ3Vykk2QiL3DMAwdnhovOoyh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.WiFiCracker.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "A:/CodeProjects/Miscellaneous/PythonStuffs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
+        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f1208b6-c3c1-4e44-8e97-2a3328216016" name="Changes" comment="" />
+      <created>1724105422692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724105422692</updated>
+      <workItem from="1724105423880" duration="69000" />
+      <workItem from="1727006122014" duration="6742000" />
+      <workItem from="1727157160780" duration="338000" />
+      <workItem from="1727158736684" duration="4997000" />
+      <workItem from="1727164413812" duration="4067000" />
+      <workItem from="1727168555018" duration="401000" />
+      <workItem from="1727170786452" duration="2125000" />
+      <workItem from="1727243786343" duration="1818000" />
+      <workItem from="1727252102679" duration="1925000" />
+      <workItem from="1727256992615" duration="33000" />
+      <workItem from="1727314398272" duration="613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$test.coverage" NAME="test Coverage Results" MODIFIED="1727170891101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WiFiCracker$main.coverage" NAME="main Coverage Results" MODIFIED="1727012732887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$WiFiCracker.coverage" NAME="WiFiCracker Coverage Results" MODIFIED="1727252521456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

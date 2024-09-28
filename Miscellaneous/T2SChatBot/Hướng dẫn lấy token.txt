@@ -1,0 +1,8 @@
+Bước 1: Truy cập https://poe.com/
+Bước 2: Bấm F12 để mở công cụ cho nhà phát triển
+Bước 3: Chọn mục Application từ thanh phía trên
+Bước 4: Chọn Cookies trong phần Storage
+Bước 5: Chọn https://poe.com/
+Bước 6: Sao chép giá trị p-b và dán vào dòng đầu tiên của file tokens.txt
+Bước 7: Sao chép giá trị p-lat và dán vào dòng thứ hai của file tokens.txt
+Bước 8: Nhớ lưu file tokens.txt sau khi edit
