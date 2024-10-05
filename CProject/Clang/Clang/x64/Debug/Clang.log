@@ -1,9 +1,0 @@
-﻿  Clang.cpp
-  file.c
-A:\CodeProjects\CProject\Clang\file.c(20,9): error C2065: 'bool': undeclared identifier
-A:\CodeProjects\CProject\Clang\file.c(20,14): error C2146: syntax error: missing ';' before identifier 'isBlacklisted'
-A:\CodeProjects\CProject\Clang\file.c(20,14): error C2065: 'isBlacklisted': undeclared identifier
-A:\CodeProjects\CProject\Clang\file.c(20,30): error C2065: 'false': undeclared identifier
-A:\CodeProjects\CProject\Clang\file.c(23,17): error C2065: 'isBlacklisted': undeclared identifier
-A:\CodeProjects\CProject\Clang\file.c(23,33): error C2065: 'true': undeclared identifier
-A:\CodeProjects\CProject\Clang\file.c(28,13): error C2065: 'isBlacklisted': undeclared identifier

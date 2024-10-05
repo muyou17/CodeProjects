@@ -1,0 +1,1 @@
+gm convert pycharm-installation-options.JPG -resize 450x300 pycharm-installation-options.webp

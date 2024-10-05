@@ -5,42 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f1208b6-c3c1-4e44-8e97-2a3328216016" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.FlappyBird/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.FlappyBird/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.FlappyBird/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../College/PRO192/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../College/PRO192/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../College/PRO192/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../College/PRO192/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../College/PRO192/PRO192.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlappyBird/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlappyBird/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlappyBird/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FlappyBird/scripts/test.gd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/PythonStuffs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Miscellaneous/T2SChatBot/.idea/T2SChatBot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/WiFiCracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wifi_cracking.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/node.js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node.js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../College/ADY201m/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../College/ADY201m/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../College/PFP191/PFP191 Slot 05.py" beforeDir="false" afterPath="$PROJECT_DIR$/../College/PFP191/PFP191 Slot 05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/SheetExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/Storage/SheetExtractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/file.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Miscellaneous/PythonStuffs/file.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/.idea/JavaScriptTutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/lessons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScriptTutorial/templates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Code Examples/rock_paper_scissors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Code Examples/rock_paper_scissors_modularized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Code Examples/tic_tac_toe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Guide/assets/images/image_resize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Guide/assets/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Guide/guide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Lessons/2. Classes.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Lessons/3. Operators.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Review/lesson_review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Review/question_templates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/Review/review_questions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonTutorial/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/FileContentIndex/3e8784a7-80ee-47e7-a92d-00f423693a8a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/FileContentIndex/96f49d1f-a6ae-4fde-a0ee-3123c8feed1d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/FileContentIndex/d79e3317-d05c-4965-9f93-6677f1e6555d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/v17/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/v17/DocumentLayout.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/v17/Solution.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/v17/ipch/AutoPCH/83ff2120114263d9/CLANG.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/.vs/Clang/v17/ipch/AutoPCH/d2a3ec7c4482a9a4/FILE.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/Clang.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/Clang.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/Clang.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/Clang.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/Clang.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/Clang.tlog/Clang.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/Clang.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/vc143.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/Clang/x64/Debug/vc143.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CProject/Clang/file.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonTutorial/.idea/PythonTutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonTutorial/.idea/PythonTutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonTutorial/Lessons/1. Variable, Constant and Print Function.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonTutorial/Lessons/1. The Print Function and Objects.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonTutorial/Lessons/2. Scalar Data Types.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonTutorial/Quizzes/1. Variable, Constant and Print Function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonTutorial/Quizzes/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonTutorial/playground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonTutorial/Lessons/0. Playground.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiFiCracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/WiFiCracker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,31 +78,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.WiFiCracker.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "A:/CodeProjects/Miscellaneous/PythonStuffs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.WiFiCracker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;A:/CodeProjects/Miscellaneous/PythonStuffs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
-        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -105,6 +125,8 @@
       <workItem from="1727252102679" duration="1925000" />
       <workItem from="1727256992615" duration="33000" />
       <workItem from="1727314398272" duration="613000" />
+      <workItem from="1727744165894" duration="1330000" />
+      <workItem from="1728023514543" duration="1210000" />
     </task>
     <servers />
   </component>
@@ -115,5 +137,6 @@
     <SUITE FILE_PATH="coverage/main_py$test.coverage" NAME="test Coverage Results" MODIFIED="1727170891101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WiFiCracker$main.coverage" NAME="main Coverage Results" MODIFIED="1727012732887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/main_py$WiFiCracker.coverage" NAME="WiFiCracker Coverage Results" MODIFIED="1727252521456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WiFiCracker_py$WiFiCracker.coverage" NAME="WiFiCracker Coverage Results" MODIFIED="1728024636555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hướng dẫn</title>
+    <link rel="stylesheet" href="assets/style.css"/>
+    <script src="assets/script.js"></script>
+</head>
+
+<body>
+    <h1 id="T">Hướng dẫn sử dụng khóa học</h1>
+    <div class="table-of-contents">
+        <h1>Mục lục</h1>
+        <ul>
+            <li>
+                <a href="#I" class="index-item">I – Chuẩn bị môi trường lập trình Python</a>
+                <ul>
+                    <li><a href="#I1" class="index-item">1. Cài đặt Anaconda</a></li>
+                    <li><a href="#I2" class="index-item">2. Cài đặt IDE</a></li>
+                    <li><a href="#I3" class="index-item">3. Tạo môi trường lập trình</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <ol>
+        <li>
+            <h2 id="I">I – Chuẩn bị môi trường lập trình Python</h2>
+            <h3 id="I1">1. Cài đặt Anaconda</h3>
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)"
+                   title="Trình phân phối Python Anaconda"
+                   target="_blank">Anaconda</a>
+                là một trình
+                <a href="https://en.wikipedia.org/wiki/Software_distribution"
+                   title="Phân phối phần mềm"
+                   target="_blank">phân phối phần mềm</a>
+                dùng để cài đặt và quản lý các
+                <a href="https://en.wikipedia.org/wiki/Deployment_environment"
+                   title="Môi trường lập trình"
+                   target="_blank">môi trường lập trình</a>
+                <a href="https://vi.wikipedia.org/wiki/Python_(ngôn_ngữ_lập_trình)"
+                   title="Ngôn ngữ lập trình Python"
+                   target="_blank">Python</a>.
+            </p>
+            <p>Sau đây là các bước để tải xuống và cài đặt Anaconda:</p>
+            <ol>
+                <li>
+                    Truy cập
+                    <a href="https://www.anaconda.com/download"
+                       title="Trang tải xuống Anaconda"
+                       target="_blank">trang tải xuống Anaconda</a>.
+                </li>
+                <li>Bấm vào dòng chữ "Skip registration" bên dưới nút <span class="green-background button">Submit</span>.</li>
+                <figure>
+                    <img src="assets/images/skip-registration-button.webp"
+                         alt='Nút "Skip registration"'
+                         title='Nút "Skip registration"'
+                         width="450" height="300">
+                </figure>
+                <li>
+                    Bấm nút <span class="green-background button">Download</span> để tải
+                    <a href="https://en.wikipedia.org/wiki/Wizard_(software)"
+                       title="Trình cài đặt">trình cài đặt</a>
+                    Anaconda 3.
+                </li>
+                <li>Sau khi tải về xong, vào thư mục tải xuống tìm và mở trình cài đặt.</li>
+                <li>Bấm nút "Next" và sau đó là "I Agree".</li>
+                <li>Chọn "All Users" rồi bấm "Next" 2 lần.</li>
+                <figure>
+                    <img src="assets/images/anaconda-installation-type.webp"
+                         alt="Cài đặt cho mọi người dùng"
+                         title="Cài đặt cho mọi người dùng"
+                         width="450" height="300">
+                </figure>
+                <li>Chọn hết vào cả ba lựa chọn rồi bấm "Install".</li>
+                <figure>
+                    <img src="assets/images/anaconda-install-options.webp"
+                         alt="Lựa chọn cài đặt nâng cao cho Anaconda"
+                         title="Lựa chọn cài đặt nâng cao cho Anaconda"
+                         width="450" height="300">
+                </figure>
+                <li> Sau khi cài đặt thành công, bấm "Next". </li>
+            </ol>
+
+            <h3 id="I2"> 2. Cài đặt IDE</h3>
+            <p>
+                Trên thị trường hiện tại có rất nhiều
+                <a href="https://vi.wikipedia.org/wiki/Môi_trường_phát_triển_tích_hợp"
+                   title="Môi trường phát triển tích hợp"
+                   target="_blank">môi trường phát triển tích hợp</a>
+                (IDE) khác nhau như
+                <a href="https://visualstudio.microsoft.com/"
+                   title="Visual Studio"
+                   target="_blank">Visual Studio</a>,
+                <a href="https://www.spyder-ide.org/"
+                   title="Spyder"
+                   target="_blank">Spyder</a>,
+                <a href="https://thonny.org/"
+                   title="Thonny"
+                   target="_blank">Thonny</a>,
+                <a href="https://eric-ide.python-projects.org/"
+                   title="Eric"
+                   target="_blank">Eric</a>,
+                <a href="https://wingware.com/"
+                   title="Wing Python IDE"
+                   target="_blank">Wing</a>,…
+                hay là các
+                <a href="https://vi.wikipedia.org/wiki/Trình_soạn_thảo_văn_bản"
+                   title="Trình soạn thảo văn bản"
+                   target="_blank">trình soạn thảo văn bản</a>
+                (text editor) với khả năng biến thành IDE thông qua các
+                <a href="https://vi.wikipedia.org/wiki/Plugin_(điện_toán)"
+                   title="Plugin"
+                   target="_blank">tiện ích mở rộng</a>
+                (extension) như
+                <a href="https://code.visualstudio.com/"
+                   title="Visual Studio Code"
+                   target="_blank">VS Code</a>,
+                <a href="https://www.sublimetext.com/"
+                   title="Sublime Text"
+                   target="_blank">Sublime Text</a>,
+                <a href="https://atom-editor.cc/"
+                   title="Atom"
+                   target="_blank">Atom</a>,
+                <a href="https://zed.dev/"
+                   title="Zed"
+                   target="_blank">Zed</a>,
+                <a href="https://developer.apple.com/xcode/"
+                   title="Xcode"
+                   target="_blank">Xcode</a>,
+                <a href="https://neovim.io/"
+                   title="Neovim"
+                   target="_blank">Neovim</a>,
+                <a href="https://www.gnu.org/software/emacs/"
+                   title="Emacs"
+                   target="_blank">Emacs</a>,…
+            </p>
+            <p>
+                Do không thể hướng dẫn hết toàn bộ các IDE và text editor,
+                bài viết này sẽ chỉ hướng dẫn sử dụng một IDE duy nhất là
+                <a href="https://www.jetbrains.com/pycharm/"
+                   title="PyCharm"
+                   target="_blank">PyCharm</a>.
+                Bạn có thể sử dụng một IDE khác tùy thích, nhưng sẽ cần phải tự tìm hiểu cách
+                sử dụng IDE đó.
+            </p>
+            <p>Đây là các bước để tải xuống và cài đặt PyCharm Community Edition:</p>
+            <ol>
+                <li> Truy cập
+                    <a href="https://www.jetbrains.com/pycharm/download/"
+                       title="Trang tải xuống PyCharm"
+                       target="_blank">trang tải xuống PyCharm</a>.
+                </li>
+                <li>
+                    Lướt xuống bên dưới và bấm <span class="gray-border button">Download</span>
+                    để tải trình cài đặt PyCharm Community Edition.
+                </li>
+                <figure>
+                    <img src="assets/images/pycharm-ce-download-button.webp"
+                         alt="Nút tải xuống PyCharm Community Edition"
+                         title="Nút tải xuống PyCharm Community Edition"
+                         width="450" height="300">
+                    <figcaption>
+                        Lưu ý: Đừng tải nhầm PyCharm Professional Edition nếu bạn không muốn trả phí cho phần mềm này.
+                    </figcaption>
+                </figure>
+                <li>Mở trình cài đặt PyCharm lên rồi chọn "Next" 2 lần.</li>
+                <li>Chọn vào 2 mục trên cùng rồi bấm "Next" sau đó "Install".</li>
+                <figure>
+                    <img src="assets/images/pycharm-installation-options.webp"
+                         alt="Lựa chọn cài đặt PyCharm"
+                         title="Lựa chọn cài đặt PyCharm"
+                         width="450" height="300">
+                </figure>
+                <li>
+                    Sau khi chạy xong, chọn vào "I want to manually reboot later" rồi bấm "Finish" để hoàn tất quá trình cài đặt.
+                </li>
+            </ol>
+
+            <h3 id="I3">3. Tạo môi trường lập trình</h3>
+            <ol>
+                <li>Mở PyCharm lên.</li>
+                <li>Chọn <span class="gray-background button">New Project</span> để tạo dự án (project) mới.</li>
+                <li>
+                    "Name" là tên của dự án mà bạn đang tạo, bạn có thể đặt tên cho nó là gì cũng được.
+                    Tuy nhiên, cộng đồng Python có quy ước đặt tên dự án bằng
+                    <a href="https://vi.wikipedia.org/wiki/Quy_tắc_con_rắn"
+                       title="Quy tắc con rắn"
+                       target="_blank">snake_case</a>.
+                    Trong bài viết này, tôi sẽ đặt tên cho dự án là "my_first_python_project".
+                </li>
+                <li>
+                    "Location" là địa chỉ mà bạn sẽ lưu dự án của mình.
+                    Địa chỉ này nên nằm ở một vị trí mà bạn có thể dễ dàng truy cập được.
+                    Để minh họa, tôi sẽ đặt dự án tại "D:\code_projects".
+                </li>
+                <li>
+                    "Interpreter type" là loại
+                    <a href="https://vi.wikipedia.org/wiki/Trình_thông_dịch"
+                       title="Trình thông dịch"
+                       target="_blank">trình thông dịch</a>
+                    mà bạn sẽ sử dụng cho dự án của mình. Ở đây, bạn cần phải chọn "Custom environment".
+                </li>
+                <li>Ở dòng "Environment", chọn "Generate new" để tạo một môi trường mới.</li>
+                <li>
+                    "Type" là loại môi trường mà chúng ta đang tạo.
+                    Vì mình đang dùng Conda nên hãy bấm vào và chọn "Conda".
+                </li>
+                <li>
+                    "Python version" là phiên bản của ngôn ngữ Python mà ta sẽ cài đặt. Bạn nên chọn phiên bản mới nhất có thể.
+                    Tôi sẽ chọn phiên bản 3.11 vì đó là phiên bản mới nhất tôi có thể chọn vào thời điểm viết bài này.
+                </li>
+                <li>
+                    "Name" là tên của môi trường mà ta đang tạo.
+                    Để dễ dàng nhận diện xem môi trường nào dùng cho dự án nào, ta nên đặt chúng cùng một tên.
+                </li>
+                <li>
+                    Nếu PyCharm hiện ô chữ nền vàng nói rằng "No conda executable found", không sao cả.
+                    Hãy mở bảng lệnh lên và nhập lệnh <code>conda info --base</code>.
+                    Lệnh này sẽ hiển thị cho bạn địa chỉ mà bạn đã cài đặt Anaconda. Nhớ sao chép địa chỉ đó lại.
+                </li>
+                <li>
+                    Bấm vào <span class="yellow-background button">Select path</span> rồi dán địa chỉ mà bạn vừa sao chép ra.
+                </li>
+                <li>
+                    Mở thư mục cài đặt Anaconda (thường tên là "anaconda3" – cái tên đó nằm ở cuối địa chỉ mà bạn sao chép)
+                    ra, chọn vào thư mục "condabin" rồi bấm vào file "conda" sau đó bấm
+                    <span class="blue-background button">OK</span> bên dưới.
+                </li>
+                <figure>
+                    <img src="assets/images/conda-executable.webp" alt="Trình thực thi Conda"
+                         title="Trình thực thi Conda" width="450" height="300">
+                    <figcaption>
+                        Bạn không cần thực hiện các bước này nếu từ đầu PyCharm
+                        đã tự động tìm được trình thực thi Conda của bạn.
+                    </figcaption>
+                </figure>
+                <li>Hiện tại, các thiết lập của tôi trông như thế này, bạn kiểm tra kỹ lại một lần nữa nhé.</li>
+                <figure>
+                    <img src="assets/images/project-creation-settings.webp" alt="Các thiết lập tạo dự án mới"
+                         title="Các thiết lập tạo dự án mới" width="450" height="300">
+                </figure>
+                <li>
+                    Nếu đã vừa ý với các thiết lập của mình rồi thì hãy nhấn <span class="blue-background button">OK</span>.
+                </li>
+                <li>
+                    Nếu bạn dùng Windows, có thể PyCharm sẽ hiện thông báo như thế này.
+                    Hãy bấm vào <span class="gray-background button">Automatically</span>.
+                </li>
+                <figure>
+                    <img src="assets/images/automatically-button.webp" alt="Nút tự động cấu hình Windows Defender"
+                         title="Nút tự động cấu hình Windows Defender" width="450" height="300">
+                </figure>
+                <li>Bạn đã khởi tạo thành công một môi trường để lập trình Python.</li>
+            </ol>
+    </li>
+</ol>
+</body>
+</html>

