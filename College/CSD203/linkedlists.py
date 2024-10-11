@@ -1,253 +1,300 @@
+from functools import total_ordering
+from collections.abc import Iterable, Iterator
 from typing import Any
 
 
-class KeyValue(object):
-    def __init__(self, key: int, value: Any) -> None:
-        self.key: int = key
-        self.value: Any = value
+@total_ordering
+class _Node(object):
+    def __init__(self, data: Any) -> None:
+        self.data = data
+
+    def __repr__(self) -> str:
+        return str(self.data)
+
+    def __eq__(self, other) -> bool:
+        if isinstance(other, _Node):
+            return self.data == other.data
+        return self.data == other
+
+    def __lt__(self, other) -> bool:
+        if isinstance(other, _Node):
+            return self.data < other.data
+        return self.data < other
 
 
-class Node(object):
-    def __init__(self, data: Any, next=None, prev=None) -> None:
-        self.data: Any = data
-        self.next: Node | None = next
-        self.prev: Node | None = prev
-
-    def display(self) -> None:
-        print(self.data)
+class SLLNode(_Node):
+    def __init__(self, data: Any) -> None:
+        super().__init__(data)
+        self.next = None
 
 
-class SingleLinkedList:
-    def __init__(self) -> None:
-        self.head: Node | None = None
-        self.tail: Node | None = None
+class DLLNode(_Node):
+    def __init__(self, data: Any) -> None:
+        super().__init__(data)
+        self.next = self.previous = None
 
-    def addHead(self, new_data) -> None:
-        new_node: Node = Node(new_data)
-        if not self.head:
-            self.head: Node = new_node
-            self.tail: Node = new_node
+
+class _LinkedList(object):
+    def __init__(self, *data: Any) -> None:
+        self.head = self.tail = None
+        self._length = 0
+        for data in data:
+            self.add_tail(data)
+
+    def __repr__(self):
+        return NotImplemented
+
+    def __len__(self) -> int:
+        return self._length
+
+    def __iter__(self) -> Iterator[_Node]:
+        cursor = self.head
+        while cursor is not None:
+            yield cursor
+            cursor = cursor.next
+
+    def __getitem__(self, index: int) -> _Node:
+        if index < 0:
+            index += self._length
+        if not self._length >= index >= 0:
+            raise IndexError("Index out of range")
+
+        cursor = self.head
+        for _ in range(index):
+            cursor = cursor.next
+        return cursor
+
+    def __setitem__(self, index: int, data: Any) -> None:
+        cursor = self[index]
+        cursor.data = data
+
+    def __delitem__(self, index: int) -> None:
+        self.remove_at(index)
+
+    def __add__(self, other: Any):
+        if isinstance(other, Iterable):
+            for element in other:
+                self.add_tail(element)
+        elif isinstance(other, _Node):
+            self.add_head(other.data)
+        else: self.add_head(other)
+        return self
+
+    def __sub__(self, other: Any):
+        if isinstance(other, Iterable):
+            self.remove(*other)
+        elif isinstance(other, _Node):
+            self.remove(other.data)
+        else: self.remove(other)
+        return self
+
+    def add_head(self, *data: Any):
+        return NotImplemented
+
+    def add_tail(self, *data: Any):
+        return NotImplemented
+
+    def add_at(self, index: int, data: Any):
+        return NotImplemented
+
+    def remove_head(self, amount: int):
+        return NotImplemented
+
+    def remove_tail(self, amount: int):
+        return NotImplemented
+
+    def remove_at(self, index: int):
+        return NotImplemented
+
+    def remove(self, *data: Any):
+        if any(data not in self for data in data):
+            return print("The list does not have these nodes.")
+
+        for data in data:
+            for index in range(self._length):
+                if self[index].data == data:
+                    return self.remove_at(index)
+
+    def clear(self) -> None:
+        self.head = self.tail = None
+        self._length = 0
+
+    def find(self, data: Any) -> int | None:
+        for index, node in enumerate(self):
+            if node == data:
+                return index
+        print("The list does not have this node")
+
+    def sort(self, key=None, /, reverse: bool = False) -> None:
+        cursor = self.head
+        for data in sorted(self, key=key, reverse=reverse):
+            cursor.data = data
+            cursor = cursor.next
+
+    def traverse(self, amount: int = 0) -> None:
+        if self._length == 0:
+            return print("The list is empty.")
+        elif len(self) < amount:
+            return print("The list does not have enough nodes for traversing.")
+
+        elif amount <= 0:
+            amount = self._length
+        cursor = self.head
+        for _ in range(amount):
+            print(cursor)
+            cursor = cursor.next
+
+
+class SinglyLinkedList(_LinkedList):
+    def __repr__(self) -> str:
+        return f'SinglyLinkedList({', '.join(repr(node) for node in self)})'
+
+    def add_head(self, *data: Any) -> None:
+        for data in data:
+            node = SLLNode(data)
+            if self._length == 0:
+                self.head = node
+                self.tail = self.head
+            else:
+                node.next = self.head
+                self.head = node
+            self._length += 1
+
+    def add_tail(self, *data: Any) -> None:
+        for data in data:
+            node = SLLNode(data)
+            if self._length == 0:
+                self.tail = node
+                self.head = self.tail
+            else:
+                self.tail.next = node
+                self.tail = node
+            self._length += 1
+
+    def add_at(self, index: int, data: Any) -> None:
+        if index < 0:
+            index += self._length
+        if not self._length >= index >= 0:
+            raise IndexError("Index out of range")
+
+        if index == 0:
+            self.add_head(data)
+        elif index == self._length:
+            self.add_tail(data)
         else:
-            new_node.next = self.head
-            self.head: Node = new_node
+            node = SLLNode(data)
+            node.next = self[index]
+            self[index - 1] = node
 
-    def addTail(self, new_data) -> None:
-        new_node: Node = Node(new_data)
-        if not self.tail:
-            self.tail: Node = new_node
-            self.head: Node = new_node
-        else:
-            self.tail.next = new_node
-            self.tail: Node = new_node
+    def remove_head(self, amount: int = 1) -> None:
+        if self._length < amount:
+            return print("The list does not have enough nodes for deletion.")
 
-    def removeHead(self) -> None:
-        if self.head:
-            self.head: Node = self.head.next
+        for node in range(amount):
+            self.head = self.head.next
+            self._length -= 1
 
-    def removeTail(self) -> None:
-        if self.tail:
-            current: Node = self.head
-            while current.next.next:
-                current: Node = current.next
-            self.tail: Node = current
-            current.next = None
+    def remove_tail(self, amount: int = 1) -> None:
+        if self._length < amount:
+            return print("The list does not have enough nodes for deletion.")
 
-    def traversalDisplay(self) -> None:
-        if not self.head:
-            print("The list is empty.")
-        else:
-            current: Node = self.head
-            while current:
-                current.display()
-                current = current.next
-
-
-class DoublyLinkedList:
-    def __init__(self) -> None:
-        self.head: Node | None = None
-        self.tail: Node | None = None
-
-    def addHead(self, new_data) -> None:
-        new_item: Node = Node(new_data, None, None)
-        if not self.head:
-            self.head: Node = new_item
-            self.tail: Node = new_item
-        else:
-            new_item.next = self.head
-            self.head.prev = new_item
-            self.head: Node = new_item
-
-    def addTail(self, new_data) -> None:
-        new_item: Node = Node(new_data, None, None)
-        if not self.tail:
-            self.tail: Node = new_item
-            self.head: Node = new_item
-        else:
-            new_item.prev = self.tail
-            self.tail.next = new_item
-            self.tail: Node = new_item
-
-    def removeHead(self) -> None:
-        if not self.head:
-            return None
-        self.head = self.head.next
-        if self.head:
-            self.head.prev = None
-
-    def removeTail(self) -> None:
-        if not self.tail:
-            return None
-        self.tail: Node = self.tail.prev
-        if self.tail:
+        for node in range(amount):
+            self.tail = self[-2]
             self.tail.next = None
+            self._length -= 1
 
-    def traversalDisplay(self) -> None:
-        if not self.head:
-            print("The list is empty.")
-        else:
-            current = self.head
-            while current:
-                current.display()
-                current: Node = current.next
+    def remove_at(self, index: int) -> None:
+        if index < 0:
+            index += self._length
+        if not self._length > index >= 0:
+            raise IndexError("Index out of range")
+
+        if index == 0:
+            return self.remove_head()
+        elif index == self._length - 1:
+            return self.remove_tail()
+        cursor = self[index - 1]
+        cursor.next = cursor.next.next
+        self._length -= 1
 
 
-class CircularLinkedList:
-    def __init__(self) -> None:
-        self.head: Node | None = None
-        self.tail: Node | None = None
+class DoublyLinkedList(_LinkedList):
+    def __repr__(self) -> str:
+        return f'DoublyLinkedList({', '.join(repr(node) for node in self)})'
 
-    def addHead(self, new_data: Any) -> None:
-        new_item: Node = Node(new_data, None)
-        if not self.head:
-            self.head: Node | None = new_item
-            self.tail: Node | None = new_item
-        else:
-            new_item.next = self.head
-            self.tail.next = new_item
-            self.head: Node | None = new_item
-
-    def removeHead(self) -> None:
-        if self.head:
-            if self.head == self.head.next:
-                self.head: Node | None = None
+    def add_head(self, *data: Any) -> None:
+        for data in data:
+            node = DLLNode(data)
+            if self._length == 0:
+                self.head = node
+                self.tail = self.head
             else:
-                self.tail.next = self.head.next
-                self.head: Node | None = self.head.next
+                node.next = self.head
+                self.head.previous = node
+                self.head = node
+            self._length += 1
 
-    def addTail(self, new_data: Any) -> None:
-        new_item: Node = Node(new_data, None)
-        if not self.tail:
-            self.head: Node | None = new_item
-            self.tail: Node | None = new_item
-        else:
-            new_item.next = self.head
-            self.tail.next = new_item
-            self.tail: Node | None = new_item
-
-    def removeTail(self) -> None:
-        if self.tail:
-            if self.tail == self.tail.next:
-                self.head: Node | None = None
-                self.tail: Node | None = None
+    def add_tail(self, *data: Any) -> None:
+        for data in data:
+            node = DLLNode(data)
+            if self._length == 0:
+                self.tail = node
+                self.head = self.tail
             else:
-                current: Node = self.head
-                while current.next != self.tail:
-                    current: Node = current.next
-                current.next = self.head
+                node.previous = self.tail
+                self.tail.next = node
+                self.tail = node
+            self._length += 1
 
-    def traversalDisplay(self) -> None:
-        if not self.tail:
-            print("The list is empty.")
+    def add_at(self, index: int, data: Any) -> None:
+        if index < 0:
+            index += self._length
+        if not self._length >= index >= 0:
+            raise IndexError("Index out of range")
+
+        if index == 0:
+            self.add_head(data)
+        elif index == self._length:
+            self.add_tail(data)
         else:
-            current: Node = self.head
-            while True:
-                current.display()
-                current = current.next
-                if current == self.head:
-                    return None
+            node = DLLNode(data)
+            node.previous = self[index].previous
+            node.next = self[index]
+            self[index].previous.next = node
+            self[index].previous = node
+            self._length += 1
 
+    def remove_head(self, amount: int = 1) -> None:
+        if self._length < amount:
+            return print("The list does not have enough nodes for deletion.")
 
-class DoublyCircularLinkedList:
-    def __init__(self) -> None:
-        self.head: Node | None = None
-        self.tail: Node | None = None
+        for node in range(amount):
+            self.head = self.head.next
+            self._length -= 1
+            if self._length > 0:
+                self.head.previous = None
 
-    def addHead(self, data: Any) -> None:
-        node: Node = Node(data)
-        if self.head is None:
-            self.head: Node = node
-            self.tail: Node = self.head
-            self.head.next = self.tail
-            self.tail.prev = self.head
-            self.head.prev = self.tail
-            self.tail.next = self.head
-        else:
-            self.tail.next = node
-            node.prev = self.tail
-            node.next = self.head
-            self.head: Node = node
+    def remove_tail(self, amount: int = 1) -> None:
+        if self._length < amount:
+            return print("The list does not have enough nodes for deletion.")
 
-    def addTail(self, data: Any) -> None:
-        node: Node = Node(data)
-        if self.tail is None:
-            self.head: Node = node
-            self.tail: Node = self.head
-            self.head.next = self.tail
-            self.tail.prev = self.head
-            self.head.prev = self.tail
-            self.tail.next = self.head
+        for node in range(amount):
+            self.tail = self.tail.previous
+            self._length -= 1
+            if self._length > 0:
+                self.tail.next = None
 
-    def removeHead(self) -> None:
-        if not self.head:
-            return None
+    def remove_at(self, index: int) -> None:
+        if index < 0:
+            index += self._length
+        if not self._length >= index >= 0:
+            raise IndexError("Index out of range")
 
-
-class Queue:
-    def __init__(self) -> None:
-        self.list: DoublyLinkedList = DoublyLinkedList()
-
-    def enqueue(self, data: Any) -> None:
-        self.list.addHead(data)
-
-    def dequeue(self) -> Any:
-        yield self.list.tail
-        self.list.removeTail()
-
-    def traversalDisplay(self) -> None:
-        self.list.traversalDisplay()
-
-
-class PriorityQueue:
-    def __init__(self) -> None:
-        self.list: DoublyLinkedList = DoublyLinkedList()
-
-    def enqueue(self, key: int, value: Any) -> None:
-        new_item: Node = Node(KeyValue(key, value))
-        if not self.list.head:
-            self.list.addHead(new_item)
-        else:
-            current: Node = self.list.head
-            while current:
-                if current.data > new_item.data.key:
-                    new_item.next = current
-                    new_item.prev = current.prev
-                    if current.prev:
-                        current.prev.next = new_item
-                    else:
-                        self.list.head = new_item
-                    current.prev = current
-                    break
-            else:
-                new_item.prev = self.list.tail
-                self.list.tail.prev = new_item
-                self.list.tail = new_item
-
-    def dequeue(self) -> None:
-        if self.list.head:
-            self.list.head.display()
-            self.list.head = self.list.head.next
-            if self.list.head:
-                self.list.head.prev = None
-
-    def traversalDisplay(self) -> None:
-        self.list.traversalDisplay()
+        if index == 0:
+            return self.remove_head()
+        elif index == self._length - 1:
+            return self.remove_tail()
+        cursor = self[index].previous
+        cursor.next = cursor.next.next
+        cursor.next.previous = cursor
+        self._length -= 1
