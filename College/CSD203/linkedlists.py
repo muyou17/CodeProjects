@@ -144,73 +144,116 @@ class _LinkedList(object):
         if not found:
             raise ValueError("The list does not have this node.")
 
-    def _insertion_sort(self, start: int, end: int, key: FunctionType, reverse: bool) -> SLLNode:
-        """Insertion sort between indices start and end implemented as a helper method for Timsort."""
-        for first_index in range(start + 1, end):
-            cursor = self[first_index]
-            second_index = first_index - 1
-            while second_index >= start and (key(self[second_index].data) > key(cursor.data)) ^ reverse:
-                self[second_index].next.data = self[second_index].data
-                second_index -= 1
-            self[second_index].next.data = cursor.data
-        return self[start]
+    def _insertion_sort(self, start: SLLNode, length: int, key: FunctionType, reverse: bool) -> SLLNode:
+        """Insertion sort a section of the list."""
+        if length <= 1:
+            return start
+
+        sorted_end = start
+        current = start.next
+        for _ in range(length - 1):
+            next_node = current.next
+            if (key(current.data) < key(sorted_end.data)) ^ reverse:
+                # Need to insert current somewhere before sorted_end
+                if (key(current.data) < key(start.data)) ^ reverse:
+                    # Insert at the beginning
+                    current.next = start
+                    start = current
+                else:
+                    # Find insertion point
+                    search = start
+                    while search.next != current and ((key(search.next.data) <= key(current.data)) ^ reverse):
+                        search = search.next
+                    current.next = search.next
+                    search.next = current
+            else:
+                sorted_end = current
+            current = next_node
+        return start
 
     def _merge(self, left: SLLNode, right: SLLNode, key: FunctionType, reverse: bool) -> SLLNode:
-        """Helper method to merge two sorted list runs for Timsort."""
-        tail = dummy = SLLNode(None)
-        while left is not None and right is not None:
-            if (key(left.data) < key(right.data)) ^ reverse:
-                tail.next = left
+        """Merge two sorted sections of the list."""
+        dummy = SLLNode(None)
+        current = dummy
+
+        while left and right:
+            if (key(left.data) <= key(right.data)) ^ reverse:
+                current.next = left
                 left = left.next
             else:
-                tail.next = right
+                current.next = right
                 right = right.next
-            tail = tail.next
-        tail.next = left if left else right
+            current = current.next
+
+        current.next = left or right
         return dummy.next
 
-    def _update_tail(self) -> None:
-        """Helper method to update the tail pointer for Timsort."""
-        cursor = self.head
-        while cursor.next:
-            cursor = cursor.next
-        self.tail = cursor
-
     def sort(self, key: FunctionType = lambda x: x, reverse: bool = False) -> None:
-        """Sort the list with the optional given key using the Timsort algorithm."""
-        MAX_RUN = 32
+        """Sort the list using the Timsort algorithm."""
+        if self._length < 2:
+            return
 
-        # Split the list into small runs and sort each run with insertion sort
-        index = 0
-        sorted_runs = SinglyLinkedList()
-        while index < self._length:
-            run_size = min(MAX_RUN, self._length - index)
-            sorted_run = self._insertion_sort(index, index + run_size, key, reverse)
-            sorted_runs.add_tail(sorted_run)
-            index += run_size
+        min_run = 32
+        runs = []
 
-        # Merge sorted runs
-        while len(sorted_runs) > 1:
-            new_runs = SinglyLinkedList()
-            for index in range(0, len(sorted_runs), 2):
-                if index + 1 < len(sorted_runs):
-                    merged = self._merge(sorted_runs[index], sorted_runs[index + 1], key, reverse)
-                    new_runs.add_tail(merged)
+        # Split the list into runs and perform insertion sort on small runs
+        current = self.head
+        while current is not None:
+            run_start = current
+            run_length = 1
+            current = current.next
+
+            # Determine run length
+            while current is not None and run_length < min_run:
+                if (key(current.data) < key(run_start.data)) ^ reverse:
+                    break
+                run_start = current
+                current = current.next
+                run_length += 1
+
+            # Perform insertion sort if run length is less than min_run
+            if run_length < min_run:
+                end = current
+                for _ in range(min(min_run - run_length, self._length - (run_length + run_length))):
+                    if not end: break
+                    end = end.next
+                    run_length += 1
+                run_start = self._insertion_sort(run_start, run_length, key, reverse)
+
+            runs.append((run_start, run_length))
+
+        # Merge runs
+        while len(runs) > 1:
+            new_runs = []
+            for i in range(0, len(runs), 2):
+                if i + 1 < len(runs):
+                    left, left_len = runs[i]
+                    right, right_len = runs[i+1]
+                    merged = self._merge(left, right, key, reverse)
+                    new_runs.append((merged, left_len + right_len))
                 else:
-                    new_runs.add_tail(sorted_runs[index])
-            sorted_runs = new_runs
+                    new_runs.append(runs[i])
+            runs = new_runs
 
-        # Update the head and tail
-        self.head = sorted_runs.head
+        # Update head and tail
+        self.head = runs[0][0]
         self._update_tail()
+
+    def _update_tail(self) -> None:
+        """Update the tail of the list after sorting."""
+        if not self.head:
+            self.tail = None
+            return
+        current = self.head
+        while current.next:
+            current = current.next
+        self.tail = current
 
     def traverse(self, amount: int = 0, separator: str = ' ', end: str = '\n') -> None:
         """Traverse the list with the given amount of nodes."""
         if self._length == 0:
             return print("The list is empty.")
-        elif self._length < amount:
-            return print("The list does not have enough nodes for traversing.")
-        elif amount <= 0:
+        elif amount not in range(1, self._length):
             amount = self._length - 1
         else: amount -= 1
 
@@ -363,7 +406,7 @@ class DoublyLinkedList(_LinkedList):
         if index < 0:
             index += self._length
         if not self._length > index >= 0:
-            raise IndexError("Index out of range")
+            raise IndexError("Index out of range.")
 
         if index == 0:
             return self.remove_head()

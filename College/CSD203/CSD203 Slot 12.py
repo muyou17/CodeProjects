@@ -1,10 +1,10 @@
-from linkedlists import SinglyLinkedList
+from linkedlists import SinglyLinkedList, DoublyLinkedList
 
 
 def main() -> None:
-    linked_list = SinglyLinkedList(6, 8, 2, 4)
+    linked_list = DoublyLinkedList(6, 8, 2, 4)
     linked_list.sort()
-    linked_list.traverse(0)
+    linked_list.traverse()
 
 
 if __name__ == '__main__':
